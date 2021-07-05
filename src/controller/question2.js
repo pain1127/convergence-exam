@@ -3,7 +3,8 @@ const router = new express.Router();
 const users = require('../data/user');
 
 /**
- * question2 : GET /question2
+ * question2 : GET /question2/:id 
+ * 코드의 에러를 고치고 특정 id 조회 기준으로 데이터 출력
  * @function
  * @name put/
  * @memberof question
