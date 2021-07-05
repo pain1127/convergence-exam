@@ -45,6 +45,7 @@ app.use((err, req, res, next) => {
 console.log(`[${package.name}] 로딩시각 : ${moment().format('YYYY-MM-DD HH:mm:ss')}`);
 console.log(`[${package.name}] 로딩환경 : ${config.env}`);
 console.log(`[${package.name}] 사용포트 : ${config.port}`);
+console.log(`[${package.name}] 서버주소 : ${config.server.host}:${config.server.port}`);
 console.log(`[${package.name}] Version : ${package.version}`);
 
 module.exports = app;
