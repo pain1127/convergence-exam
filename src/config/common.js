@@ -5,7 +5,7 @@ dotenv.config();
 
 const config = {
   env: process.env.NODE_ENV,
-  port: process.env.USE_PORT
+  port: process.env.USE_PORT,
 };
 
 module.exports = config;

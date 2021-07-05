@@ -9,7 +9,8 @@ const moment = require('moment');
 const morgan = require('morgan');
 
 // routerf
-const indexRouter = require('./controller/index');
+const questionRouter1 = require('./controller/question1');
+const questionRouter2 = require('./controller/question2');
 
 const app = express();
 
@@ -18,10 +19,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
+app.use(morgan('dev'));
 
-app.use('/', indexRouter);
-
-app.use(morgan('combined'));
+// router 설정
+app.use('/question1', questionRouter1);
+app.use('/question2', questionRouter2);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

@@ -15,7 +15,7 @@ module.exports = {
     'parser': 'babel-eslint',
   },
   'rules': {
-    'max-len': ['error', {'code': 80}],
+    'max-len': ['error', {'code': 200}],
     'linebreak-style': [0, 'error', 'unix'],
   },
 };
