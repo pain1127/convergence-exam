@@ -10,12 +10,8 @@ const morgan = require('morgan');
 
 // routerf
 const indexRouter = require('./controller/index');
-// const sequelize = require('./model').sequelize;
 
 const app = express();
-
-// sync() 하면 DB스키마대로 서버실행시 테이블 존재 여부 파악하여 생성함.
-// sequelize.sync(); // 서버 실행 시 MariaDB와 연동
 
 app.use(helmet());
 app.use(cors());
