@@ -11,7 +11,7 @@ const users = require('../data/user');
  */
 router.get('/', (req, res, next) => {
   try {
-    res.send('');
+    res.send(users);
   } catch (err) {
     res.send(err.message);
   }
