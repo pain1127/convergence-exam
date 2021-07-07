@@ -1,7 +1,10 @@
 # convergence-exam
 컨버전스팀 개발자 채용 과제 테스트
 
-## question 1
+# 참고링크
+- https://www.notion.so/Catenoid-5e7d2309d16a493a8ae672b46af943fd
+
+<!-- ## question 1
 - 사용자 리스트가 들어있는 json 파일이 있습니다.
 - src/data/user.js
 - 사용자 리스트의 json Array는 다음과 같습니다.
@@ -170,4 +173,4 @@
   company: '카테노이드',
   age: 51,
 }
-```
+``` -->
